@@ -1,0 +1,21 @@
+{
+  "name": "es-library",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  },
+  "main": "bundles/es-library.umd.js",
+  "module": "fesm5/es-library.js",
+  "es2015": "fesm2015/es-library.js",
+  "esm5": "esm5/es-library.js",
+  "esm2015": "esm2015/es-library.js",
+  "fesm5": "fesm5/es-library.js",
+  "fesm2015": "fesm2015/es-library.js",
+  "typings": "es-library.d.ts",
+  "metadata": "es-library.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
